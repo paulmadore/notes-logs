@@ -232,8 +232,9 @@ footer {
     background-color: rgba(160, 113, 49, 0.7);
     border-radius: 25px 25px 25px 25px;
     padding: 25px;
-    position: fixed;
-    bottom: 20px;
+    position:absolute;
+    bottom:0;
+   
     
 }
 
