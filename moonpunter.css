@@ -235,6 +235,13 @@ footer, div#footer {
     
 }
 
+div.creditsbg {
+    background-color: rgba(160, 113, 49, 0.7);
+    border-radius: 25px 25px 25px 25px;
+    padding: 25px;
+    text-align: justify;
+}
+
 footer p, div#footer p, p.credits {
     color: #64ac92;
     font-size: 1.1em;
