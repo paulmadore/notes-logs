@@ -243,12 +243,16 @@ div.creditsbg {
     width: 100%;
 }
 
+p.credits {
+    text-indent: 0 !important;
+}
+
 footer p, div#footer p, p.credits {
     color: #64ac92;
     font-size: 1.1em;
     font-family: 'orion';
     text-shadow: 2px 2px 2px #2d2d2d;
-    text-indent: 0in;
+ 
 }
 
 footer p a:hover, div#footer p a:hover, p.credits a:hover {
