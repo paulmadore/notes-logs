@@ -223,7 +223,7 @@ ul#menu li.sub a:hover {
 }
 
 footer, div#footer {
-    
+    margin-top: 250%;
     margin-left: 1in;
     margin-right: auto;
     width: 60%;
