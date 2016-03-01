@@ -236,18 +236,17 @@ footer, div#footer {
     left: 0;
     position: absolute;
     right: 0;
-   
     
 }
 
-footer p {
+footer p, div#footer p {
     color: #64ac92;
     font-size: 1.1em;
     font-family: 'orion';
     text-shadow: 2px 2px 2px #2d2d2d;
 }
 
-footer p a:hover {
+footer p a:hover, div#footer p a:hover {
     color: rgba(239, 239, 239, 0.5);
     text-shadow: 1px 1px 1px #000;
 }
