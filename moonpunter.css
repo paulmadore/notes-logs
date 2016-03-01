@@ -243,6 +243,10 @@ div.creditsbg {
     width: 100%;
 }
 
+div.creditsbg p {
+    text-indent: 0;
+}
+
 footer p, div#footer p, p.credits {
     color: #64ac92;
     font-size: 1.1em;
