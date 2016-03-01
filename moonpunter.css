@@ -222,7 +222,7 @@ ul#menu li.sub a:hover {
     border-bottom: none;
 }
 
-footer {
+footer, #footer {
     margin-top: auto;
     margin-left: 1in;
     margin-right: auto;
