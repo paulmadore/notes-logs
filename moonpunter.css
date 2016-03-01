@@ -240,6 +240,7 @@ div.creditsbg {
     border-radius: 25px 25px 25px 25px;
     padding: 25px;
     text-align: justify;
+    width: 100%;
 }
 
 footer p, div#footer p, p.credits {
