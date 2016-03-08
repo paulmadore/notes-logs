@@ -6,6 +6,11 @@
  <link>http://moonpunter.xyz</link>
  
   <item>
+   <title>1457440198</title>
+   <description>Python CGI "Premature End of Script Header" Apache 2 Error: A Checklist :: The first thing you need to try is just running a script in general. This will knock out the general errors that might be encountered when trying to use Python as CGI. So here you are...</description>
+  </item>
+  
+  <item>
   <title>1456864312</title>
   <description>If the purpose of tool kits is to make developing UIs easier, then they should be less complex, I think. As much as I love spending half the day <code>RTFM</code>'ing, it seems even the most basic concepts have become overcomplicated by perhaps lack of focus. Let's hope that future renditions of Qt and GTK manage to unify things in such a way that new methods are interoperable with old ones, such that an old method will be automatically detected at compile time, and then the compiler informs you of how the exact same thing would look in the new version. Then you just update those lines, and you're still not spending the day learning multiple things to accomplish one basic task.</description>
   <link>http://moonpunter.xyz/2016/1456864312.html</link>

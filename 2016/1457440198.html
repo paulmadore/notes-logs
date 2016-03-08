@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="moonpunter.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="moonpunter.rss">
-    <title>moonpunter("techlog")</title>
+    <link rel="stylesheet" href="../moonpunter.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="../moonpunter.rss">
+    <title>moonpunter("techlog") :: 1457440198</title>
 </head>
 <body>
-   
-   
     <div id="entries">
         <div class="entry">
-            <h1><a href="2016/1457440198.html">1457440198</a></h1>
-        <h2 class="subpst">Python CGI <br/>"Premature End of Script Header" <br/>+ Apache 2 Error: A Checklist</h2>
+            <h1>1457440198</h1>
+        <h2 class="subpst">Python CGI "Premature End of Script Header" Apache 2 Error: A Checklist</h2>
         <p class="first">I'm hoping you found me via a search engine. I feel your pain.</p>
         <h3 class="h3subpst">test.py</h3>
         <p class="first">The first thing you need to try is just running a script in general. This will knock out the general errors that might be encountered when trying to use Python as CGI. So here you are:</p>
@@ -44,31 +42,16 @@
         <h3 class="h3subpst">Else</h3>
         <p class="first">If you're reading this post, then the chances are that "premature end of script header" was thrown at you. The most likely cause of that error is that you need to specify the Python you're using. If you were previously saying <code>#!/usr/bin/env python</code>, try instead saying <code>#!/usr/bin/env python3/2</code>. For a Linux-based server you can use the command <code>ls -al python</code> and the output will list all of Python's installations and references on that server.</p>
        
-        </div>      
-        
-        <div class="entry">
-            <h1><a href="2016/1457124712.html">1457124712</a></h1>
-        <h2 class="subpst">Portabilty</h2>
-        <p class="first">It occurs to me that there are hundreds of languages and "frameworks" being developed the world over, but few of them focus on being portable in a meaningful way. For instance, it would be somewhat trivial to create a library within your language that would source all things appropriately. If you know that <code>gcc-5</code> is going to break the code, you could ensure that <code>gcc-4.8</code> was available by installing it at execution time. If no trusted source existed, you could ask permission, find one, and carry on. What I envision this module to be is some kind of octopus which stretches out, but does not create a whole new instance in the way that containerization does.</p>
-        <h2 class="subpst">!important</h2>
-        <p class="first">When monkeying with HTML and CSS, the <code>!important</code> modifier is not to be used lightly. The first time I ever needed it was the other day. I couldn't figure out why something in this very site's code was not being targeted, as demonstrated by the <a href="https://github.com/paulmadore/notes-logs/commit/3f9712979a031f15414172fa1e0f1e8db2d44c11" target="_blank">number of times I tried</a>. Adding an !important flag worked. Only after trying everything else should you tell the browser that something is &ldquo;<code>!imporant</code>.&rdquo;</p>
         </div>
-        
-        
+        <!--div class="entry">
+        <h1>unixtime</h1>
+        <p></p>
+        </div-->
         
     </div>
 
-    
-    
-    
-<!--div id="footer">
-    <p>handcoded / copyright P. H. Madore 2016 :: <a href="https://github.com/paulmadore/notes-logs" target="_blank">open</a> via <a href="https://www.mozilla.org/en-US/MPL/2.0/" target="_blank">MPL 2.0</a></p>
-    <p>background based on 'Grunge Designs' :: <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">(cc-by-sa-3.0)</a> <a href="http://creative-commons.deviantart.com/art/Grunge-Backgrounds-203957903" target="_blank">Chrisdesign</a></p>
-    <p>uses <a href="http://mozilla.github.io/Fira/" target="_blank">Fira</a> by Mozilla, <a href="https://fontlibrary.org/en/font/teleindicadores-1" target="_blank">Teleindicadores</a> by 440EMU, and <a href="http://pippin.gimp.org/0xA000/" target="_blank">0xa000</a> by &Oslash;yvind Kol&aring;.</p>
-</div-->
-
-<div id="overtop">
-    <h1 class="hdr">notes & logs by <a href="http://phm.link" target="_blank">phm</a></h1>
+    <div id="overtop">
+    <h1 class="hdr"><a href="../index.html">notes & logs</a> by phm</h1>
     <h2 class="hdline">This is just a little <span class="strk">(error)</span> log from my various experiences as I go along. Dates are in <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">Unix time</a>.</h2>
     <ul id="menu">
         <li><a href="http://phm.link" target="_blank">main.h</a></li>
@@ -77,9 +60,9 @@
         <li><a href="http://spacity.website" target="_blank">design</a></li>
         <li><a href="http://scrapworks.space" target="_blank">scrapworks</a></li>
         <li><a href="https://lucky.computer" target="_blank">lcc</a></li>
-        <li class="sub"><a href="moonpunter.rss">subscribe</a></li>
-        <li class="sub"><a href="credits.html">credits</a></li>
-        <li class="sub"><a href="archive.html">archive</a></li>
+        <li class="sub"><a href="../moonpunter.rss">subscribe</a></li>
+        <li class="sub"><a href="../credits.html">credits</a></li>
+        <li class="sub"><a href="../archive.html">archive</a></li>
 
     </ul>
     </div>
