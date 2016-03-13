@@ -5,6 +5,13 @@
  <description>notes and logs by P. H. Madore</description>
  <link>http://moonpunter.xyz</link>
  
+   <item>
+   <title>1457877574</title>
+   <description>There's a lot of value in being able to go over the existing code in complete. Sometimes, it's worth the time to invest just to go over the entire codebase you already have in front of you, rather than jumping around searching for specific things.</description>
+   <link>http://moonpunter.xyz/2016/1457877574.html</link>
+   <pubDate>Sun, 13 Mar 2016 13:59:34 +0000</pubDate>
+  </item>
+  
   <item>
    <title>1457440198</title>
    <description>Python CGI "Premature End of Script Header" Apache 2 Error: A Checklist :: The first thing you need to try is just running a script in general. This will knock out the general errors that might be encountered when trying to use Python as CGI. So here you are...</description>
