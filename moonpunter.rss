@@ -4,7 +4,14 @@
  <title>moonpunter("techlog")</title>
  <description>notes and logs by P. H. Madore</description>
  <link>http://moonpunter.xyz</link>
- 
+  <item>
+   <title>1457990934</title>
+   <description>Often, things will not go as planned. The core measure of your might is how long you're willing to continue prodding in the same direction, despite it all, hoping to get what you came for.</description>
+   <link>http://moonpunter.xyz/2016/1457990934.html</link>
+   <pubDate>Mon, 14 Mar 2016 21:28:54 +0000</pubDate>
+  </item>
+   
+   
    <item>
    <title>1457877574</title>
    <description>There's a lot of value in being able to go over the existing code in complete. Sometimes, it's worth the time to invest just to go over the entire codebase you already have in front of you, rather than jumping around searching for specific things.</description>

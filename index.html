@@ -10,46 +10,18 @@
    
     <div id="entries">
         <div class="entry">
+            <h1><a href="2016/1457990934.html">1457990934</a></h1>
+        <p class="first">Often, things will not go as planned. The core measure of your might is how long you're willing to continue prodding in the same direction, despite it all, hoping to get what you came for.</p>
+        <p>No one is saying things are not going to work. Certainly no one is saying that things are going to go smoothly. But things do have a way of working out if you keep at it.</p>
+        <p>And sometimes you just need to know that. And go on that. And live on that.</p>
+        </div>
+       
+        <div class="entry">
             <h1><a href="2016/1457877574.html">1457877574</a></h1>
         <p class="first">There's a lot of value in being able to go over the existing code in complete. Sometimes, it's worth the time to invest just to go over the entire codebase you already have in front of you, rather than jumping around searching for specific things.</p>
         </div>
         
-        <div class="entry">
-            <h1><a href="2016/1457440198.html">1457440198</a></h1>
-        <h2 class="subpst">Python CGI <br/>"Premature End of Script Header" <br/>+ Apache 2 Error: A Checklist</h2>
-        <p class="first">I'm hoping you found me via a search engine. I feel your pain.</p>
-        <h3 class="h3subpst">test.py</h3>
-        <p class="first">The first thing you need to try is just running a script in general. This will knock out the general errors that might be encountered when trying to use Python as CGI. So here you are:</p>
-        <p class="first"><code>
-            #!/usr/bin/env python<br/>
-            import cgi<br/>
-            cgi.test()
-        </code></p>
-        <p>Drop that into the same directory where your error script is, and see if you get anything. If you've got your basics covered, that should output a lot of information. If that's the case, you know that your config is mostly correct -- though you may still need to check your permissions.</p>
-        <h3 class="h3subpst">Apache Configuration</h3>
-        <p class="first">This could depend on a variety of things. One of the primary things to check for is that you have enabled CGI execution in the directory you are trying to execute from. Depending on the version of your Apache installation, check <code>httpd.conf</code> or <code>apache2.conf</code> for the following lines:</p>
-        <p class="first">
-            <code>
-                &lt;Directory /var/www/html/x&gt;<br/>
-                Options ExecCGI<br/>
-                SetHandler cgi-script<br/>
-            &lt;/Directory&gt;<br/>
-          &lt;Directory /var/www/html/*&gt;</br>
-                Options +ExecCGI<br/>
-                AddHandler cgi-script .py<br/>
-            &lt;/Directory&gt;<br/>
-            </code>
-        </p>
-        <p>This tells Apache that <code>cgi-script</code>, which is enabled in the first block, is allowed to execute scripts with the <code>.py</code> extension within the <code>html</code> directory and all subdirectories. Obviously you will want to modify this configuration to only the directory where you are trying to execute Python scripts in.</p>
-        <p>This section would include things like <code>mod_python</code> being enabled, but if you passed the section that is a given.</p>
-        <h3 class="h3subpst">Permissions, permissions, permissions</h3>
-        <p class="first">For the purpose of testing, try changing everything to 777 and see if your script runs then. If it does, then you're facing a permissions issue. Most likely the place you're trying to execute from (a front-side page, for instance) is not allowed to touch your <code>script.py</code>.</p>
-        <h3 class="h3subpst">Read Your Logs</h3>
-        <p class="first">If all of the above have been crossed off, and your script still is not executing, then the chances are the answer lies in your logs. You can use Pythonic logging to further fine-tune and discover actual errors within your code, but it could be a number of things.</p>
-        <h3 class="h3subpst">Else</h3>
-        <p class="first">If you're reading this post, then the chances are that "premature end of script header" was thrown at you. The most likely cause of that error is that you need to specify the Python you're using. If you were previously saying <code>#!/usr/bin/env python</code>, try instead saying <code>#!/usr/bin/env python3/2</code>. For a Linux-based server you can use the command <code>ls -al python</code> and the output will list all of Python's installations and references on that server.</p>
-       
-        </div>      
+        
         
         
         
